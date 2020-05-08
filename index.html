@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Clima em sua região</title>	
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/geo.js"></script>
+</head>
+
+<body>
+	<p id="_status"></p>
+	<div id="conteudo" style="display: none">
+		<h1 id="local"></h1>
+		<div id="principal">
+			<h2 id="tempAtual"></h2>
+			<h2 id="tempSensacao"></h2>
+
+			<div id="descriDiv">
+				<h2 id="descri"></h2>
+				<img id="descriImg" src="">
+			</div>
+
+			<div id="minDiv">
+				<img id="minImg" src="img/min.png">
+				<h2 id="tempMin"></h2>
+			</div>
+
+			<div id="maxDiv">
+				<img id="maxImg" src="img/max.png">
+				<h2 id="tempMax"></h2>
+			</div>
+		</div>
+		
+		<div id="sol">
+			<h1>Nascer e pôr do sol</h1>
+			<div id="nascerDiv">
+				<img id="nascerImg" src="img/sunrise.png">
+				<h2 id="solNascer"></h2>
+			</div>
+			
+			<div id="porDiv">
+				<img id="porImg" src="img/sunset.png">
+				<h2 id="solPor"></h2>
+			</div>
+		</div>
+		
+		<div id="outros">
+			<h1>Outros</h1>
+			<h2 id="ventoVel"></h2>
+			<h2 id="humidade"></h2>
+			<h2 id="pressao"></h2>
+			<h2 id="timezone"></h2>
+		</div>
+	</div>
+</body>
+</html>

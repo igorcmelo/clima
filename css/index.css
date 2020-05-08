@@ -1,0 +1,63 @@
+/* ---------------- GERAL ---------------- */
+#principal, #sol, #outros {
+	background-color: #222;
+	padding: 15px;
+	margin: 15px 5px;
+	border-radius: 10px; 
+}
+
+#conteudo {
+	text-align: center;
+}
+
+body {
+	font-family: arial;
+	background-color: #000;
+	color: white;
+}
+
+h2 {
+	margin: 5px;
+	padding: 5px;
+}
+
+
+
+/* ---------------- PRINCIPAL ---------------- */
+#descriDiv {
+	margin: 20px 0;
+}
+
+#tempAtual {
+	font-size: 4em;
+}
+
+#tempMin, #tempMax {
+	font-size: 3em;
+}
+
+#tempAtual {
+	color: #FF8;
+}
+
+#tempSensacao {
+	color: #AAA;
+}
+/* ---------------- SOL ---------------- */
+#nascerImg, #porImg, #minImg, #maxImg {
+	width: 50px;
+}
+
+#nascerDiv *, #porDiv *, #minDiv *, #maxDiv * {
+	display: inline;
+	vertical-align: middle;
+}
+
+
+
+#sol img {
+
+}
+
+@media (max-width: 430px) {
+}
